@@ -10,6 +10,29 @@
     <h1>JavaScriptの式と演算子</h1>
     <p>main.js を読んでください</p>
     <!-- 以下の一行で main.js ファイルを読み込む -->
-    <script src="main.js"></script>
+    <script src="main.js">
+      console.log(57052 + 57054)
+      console.log("114" + "106")
+
+      let x = 5
+      x += 2
+      x *= 5
+      x = 100 % x
+      x /= 6
+
+
+      let happiness;
+      let sleepiness;
+
+      const isHappy = happiness > 90
+      const isSleepy = sleepiness > 90
+      const isNotHappyAndSleepy = !isHappy && isSleepy
+
+      console.log(isNotHappyAndSleepy)
+
+      const isHappyAndNotSleepy = isHappy && !isSleepy
+
+      console.log(isHappyAndNotSleepy)
+    </script>
   </body>
 </html>

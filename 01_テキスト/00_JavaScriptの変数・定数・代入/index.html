@@ -10,6 +10,23 @@
     <h1>JavaScriptの変数・定数・代入</h1>
     <p>main.js を読んでください</p>
     <!-- 以下の一行で main.js ファイルを読み込む -->
-    <script src="main.js"></script>
+    <script src="main.js">
+      const f1 = function(n){
+        return 3*n +1
+      }
+      const f2 = function(n){
+        return 10**n
+      }
+      const f3 = function(n){
+         return f1(n)+f2(n)
+      }
+
+      const multiply = function(x,y){
+        return x*y
+      }
+      const plusRound = function(x,y){
+        return Math.round(x + y)
+      }
+    </script>
   </body>
 </html>
